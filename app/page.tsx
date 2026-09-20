@@ -191,7 +191,7 @@ export default function Page() {
   setRunning(true)
 
   try {
-    const response = await fetch('http://127.0.0.1:8000/api/simulate', {
+    const response = await fetch('https://quantum-lab-o4kr.onrender.com/api/simulate', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
